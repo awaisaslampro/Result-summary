@@ -3,7 +3,7 @@ import React from 'react';
 // h-[350px] w-[450px]
 function App() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-pale-blue">
+    <main className="flex min-h-screen flex-col items-center justify-center md:bg-transparent bg-pale-blue">
       <div className='flex md:flex-col md:justify-center md:items-center md:bg-transparent h-[350px] w-[450px] bg-white rounded-3xl'>
         <aside className='w-1/2 flex flex-col gap-4  px-4 text-center justify-center items-center rounded-3xl bg-gradient-to-b from-slate-blue-light to-slate-blue-dark'>
           <div className='text-gray-300'>Your Result</div>
